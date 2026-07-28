@@ -125,8 +125,8 @@ body {
 .quote-box {
   display: inline-block;
   border: 2px dashed #bfbfbf;
-  border-left: 6px solid #7bc67b;
-  background: #e6e6e6;
+  border-left: 6px solid #4a86e8;
+  background: #f3f3f3;
   padding: 12px 24px;
   margin: 4px 0;
   font-size: 17px;
@@ -400,7 +400,7 @@ h3 {
 }
 
 .char-title {
-  background: #bb4052;
+  background: #983327;
   text-align: center;
   padding: 10px;
   color: #fff6f3;
@@ -462,7 +462,7 @@ h3 {
 
 .info-label {
   width: 28%;
-  background: #bb4052;
+  background: #983327;
   padding: 8px;
   font-weight: bold;
   text-align: center;
@@ -525,7 +525,7 @@ h3 {
   text-align: center;
   font-weight: bold;
   padding: 8px;
-  background: #bb4052;
+  background: #983327;
   color: #fff6f3;
   border-top: 1px solid #b5b5b5;
 }
@@ -571,7 +571,7 @@ h3 {
   margin-top: 4px;
   padding: 3px 4px;
   border-radius: 4px;
-  background: #e01e1e;
+  background: #15b;
   color: #fefafb;
   font-weight: bold;
 }
@@ -599,13 +599,18 @@ h3 {
 }
 
 .navbox-section-01 {
-  background: #fd5378;
+  background: #425a88;
   color: white;
 }
 
 .navbox-section-02 {
-  background: #f59974;
-  color: #222;
+  background: #871b4d;
+  color: #ee2222;
+}
+
+.navbox-section-03 {
+  background: #333333;
+  color: white;
 }
 
 .navbox-table a {
