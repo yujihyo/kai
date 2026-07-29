@@ -1451,10 +1451,7 @@ h3 {
     width: 65%;
   }
 
-  .navbox-center {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  .navbox-center { text-indent: 10px; }
 }
 
 /* =========================
