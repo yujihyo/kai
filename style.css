@@ -1397,9 +1397,11 @@ h3 {
 @media (max-width: 768px) {
 
   .navbox {
+    width: 90%;
     margin: 20px 0;
     font-size: 12px;
     border-width: 1px;
+    box-sizing: border-box;
   }
 
   .navbox-title {
