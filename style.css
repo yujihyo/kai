@@ -1397,7 +1397,6 @@ h3 {
 @media (max-width: 768px) {
 
   .navbox {
-    width: 100%;
     margin: 20px 0;
     font-size: 12px;
     border-width: 1px;
@@ -1432,6 +1431,20 @@ h3 {
 
   .navbox-table a {
     font-size: inherit;
+  }
+
+    .navbox-table {
+    table-layout: fixed;
+  }
+
+  .navbox-table th:first-child,
+  .navbox-table td:first-child {
+    width: 35%;
+  }
+
+  .navbox-table th:nth-child(2),
+  .navbox-table td:nth-child(2) {
+    width: 65%;
   }
 }
 
