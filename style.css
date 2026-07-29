@@ -1419,8 +1419,10 @@ h3 {
   }
 
   .navbox-toggle {
+    margin: 2px 0;
+    padding: 2px 0;
+    line-height: 1.2;
     font-size: 12px;
-    padding: 6px 0;
   }
 
   .navbox-table th,
@@ -1435,7 +1437,7 @@ h3 {
     font-size: inherit;
   }
 
-    .navbox-table {
+  .navbox-table {
     table-layout: fixed;
   }
 
@@ -1447,6 +1449,11 @@ h3 {
   .navbox-table th:nth-child(2),
   .navbox-table td:nth-child(2) {
     width: 65%;
+  }
+
+  .navbox-center {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
