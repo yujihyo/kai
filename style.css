@@ -1397,7 +1397,7 @@ h3 {
 @media (max-width: 768px) {
 
   .navbox {
-    width: 90%;
+    width: 100%;
     margin: 20px 0;
     font-size: 12px;
     border-width: 1px;
@@ -1419,8 +1419,8 @@ h3 {
   }
 
   .navbox-toggle {
-    font-size: 14px;
-    padding: 8px 0;
+    font-size: 12px;
+    padding: 6px 0;
   }
 
   .navbox-table th,
