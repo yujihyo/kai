@@ -1390,3 +1390,76 @@ h3 {
   }
 
 }
+
+/* =========================
+   모바일 대응 (768px 이하)
+========================= */
+@media (max-width: 768px) {
+
+  .navbox {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 12px;
+    border-width: 1px;
+  }
+
+  .navbox-title {
+    padding: 10px;
+  }
+
+  .navbox-title a,
+  .navbox-title a:visited {
+    font-size: 18px;
+  }
+
+  .navbox-subtitle {
+    font-size: 12px;
+    padding: 2px 4px;
+  }
+
+  .navbox-toggle {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  .navbox-table th,
+  .navbox-table td {
+    padding: 5px;
+    font-size: 12px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  .navbox-table a {
+    font-size: inherit;
+  }
+}
+
+/* =========================
+   매우 작은 화면 (480px 이하)
+========================= */
+@media (max-width: 480px) {
+
+  .navbox {
+    font-size: 11px;
+  }
+
+  .navbox-title a,
+  .navbox-title a:visited {
+    font-size: 16px;
+  }
+
+  .navbox-subtitle {
+    font-size: 11px;
+  }
+
+  .navbox-toggle {
+    font-size: 13px;
+  }
+
+  .navbox-table th,
+  .navbox-table td {
+    padding: 4px;
+    font-size: 11px;
+  }
+}
